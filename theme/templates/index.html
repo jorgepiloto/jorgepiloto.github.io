@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ SITENAME }}</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="/{{ THEME_STATIC_DIR }}/css/main.css">
+</head>
+<body>
+  <h1>Articles</h1>
+  <ul>
+{% for article in articles_page.object_list %}
+    <li><a href="/{{ article.url }}">{{ article.title }}</a> </li>
+{% endfor %}
+  </ul>
+</body>
+</html>

@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>{{ article.title }}</title>
+  <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
   <meta charset="utf-8" />
   <link rel="stylesheet" href="/{{ THEME_STATIC_DIR }}/css/main.css">
 </head>
 <body>
-  {{ article.content }}
+{% block content %}
+{% endblock %}
 </body>
 </html>

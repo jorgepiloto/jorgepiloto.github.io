@@ -35,3 +35,4 @@ DEFAULT_PAGINATION = False
 
 # Custom theme for the website
 THEME = 'theme'
+THEME_STATIC_DIR = 'theme/static/'
