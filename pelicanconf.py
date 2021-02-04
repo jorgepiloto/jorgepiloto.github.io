@@ -32,3 +32,6 @@ DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+# Custom theme for the website
+THEME = 'theme'
