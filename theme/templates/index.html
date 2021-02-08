@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+<!-- All the content of the webpage -->
+<div class="content">
+
+  <!-- Banner of the webpage -->
+  <header>
+    <a class="banner-link" href="{{ SITEURL}}/index.html"><h1 class="banner">{{ SITENAME }}<i class="fa fa-space-shuttle fa-fw"></i></h1></a>
+  </header>
+
+  <!-- Navigation bar -->
+  <nav class="menu">
+    <ul>
+
+      <!-- Build a link for each item in the menu -->
+      {% for name, fa, link in MENU_LINKS %}
+        <li><a href="{{ SITEURL }}/{{ link }}">{{ name }}<i class="fa {{ fa }} fa-fw"></i></a></li>
+      {% endfor %}
+
+    </ul>
+  </nav>
+
+  <!-- Make a clear fix between menu bar and articles content -->
+  <div class="clearfix"></div>
+
+  <!-- Articles main section -->
+  <div id="article-list">
+
+    {% set article = articles[0] %}
+      <article>
+        <p class="title"><i class="fa fa-file-text-o"> {{ article.title }}</i></p>
+        <p class="subtitle">{{ article.subtitle }}</p>
+	<div class="post">
+          {{ article.content }}
+	</div>
+	<p class="author">{{ article.date.strftime("On %Y/%m/%d") }}, by {{ article.author }}</p>
+      </article>
+
+  </div>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+
+    <!-- Build each of the sections -->
+    {% for section, icon, subicon, content in SIDEBAR_SECTIONS %}
+      <div class="{{ class }}">
+        <h2><i class="fa {{ icon }}"></i> {{ section }}</h2>
+	<div class="content">
+          {% for name, resume in content %}
+	  <h3><i class="fa {{ subicon }}"> {{ name }}</i></h3>
+	  {% if section == "Interesting websites" %}
+	    <a class="link" href="{{ resume }}">{{ resume }}</a>
+	  {% else %}
+	    <p>{{ resume }}</p>
+	  {% endif %}
+	  {% endfor %}
+	</div>
+      </div>
+    {% endfor %}
+
+  </aside>
+
+  <!-- Make a clear fix between sidebar and footer -->
+  <div class="clearfix"></div>
+
+  <!-- Footer -->
+  <footer>
+    <p>This website is built using open-source tools <i class="fa fa-gears fa-fw"></i></p>
+  </footer>
+
+</div>
+
+
+{% endblock %}

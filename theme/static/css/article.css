@@ -1,0 +1,83 @@
+/* A collection of articles */
+
+#article-list {
+  background-color: white;
+  float: left;
+  width: 73.5%;
+  border-right: 2px solid black;
+  border-left: 15px solid black;
+}
+
+article {
+  padding: 3%;
+  counter-reset: h2counter;
+  border-bottom: 5px solid black;
+}
+
+/* Section title */
+article h2 {
+  margin-top: 15px;
+}
+
+/* Subsection title */
+article h3 {
+  margin-top: 15px;
+}
+
+/* Customize the title and subtitle style */
+article .title {
+  font-size: 175%;
+  font-weight: bold;
+}
+
+article .subtitle {
+  font-size: 135%;
+  border-bottom: 2px solid black;
+}
+
+article .author {
+  margin-top: 2%;
+  text-align: right;
+}
+
+/* Automatically numbering headings via CSS */
+article h1 {
+  counter-reset: h2counter;
+}
+
+article h2:before {
+  content: counter(h2counter) ".\0000a0\0000a0";
+  counter-increment: h2counter;
+  counter-reset: h3counter;
+}
+
+article h3:before {
+  content: counter(h2counter) "." counter(h3counter) ".\0000a0\0000a0";
+  counter-increment: h3counter;
+}
+
+article p {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+article p:first-child {
+  margin-top: 15px;
+}
+
+article p:first-child:after {
+  margin-left: 15px;
+}
+
+
+.article-content {
+  top-margin: 1%;
+}
+
+.post p {
+  margin-left: 2%;
+}
+
+.post p:first-child {
+  margin-left: 0%;
+}

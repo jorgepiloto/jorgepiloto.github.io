@@ -1,0 +1,30 @@
+/* Style-sheet for top menu bar */
+
+nav.menu {
+  background-color: black;
+  text-color: white;
+  text-align: center;
+  list-style:none;
+  margin-left:0;
+  padding:0;
+}
+
+nav.menu li {
+  display:inline;
+}
+
+nav.menu a {
+  color: white;
+  font-weight: bold;
+  display:inline-block;
+  padding:10px;
+  text-decoration: none;
+}
+
+nav.menu a:hover {
+  background-color: #555;
+}
+
+nav.menu i { 
+  margin-left: 5px;
+}

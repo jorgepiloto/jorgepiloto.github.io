@@ -1,0 +1,56 @@
+/* Import Source Sans Pro from Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+/* Import other custom style-sheets for the website */
+@import 'banner.css';
+@import 'menu.css';
+@import 'article.css';
+@import 'code_highlight.css';
+@import 'sidebar.css';
+@import 'footer.css';
+@import 'page.css';
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+/* Style for the body of the webpage */
+body { 
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: black;
+}
+
+.content { 
+  height: 100%;
+  margin: 0px auto;
+}
+
+/* Define the clear fix */
+.clearfix { clear: both; }
+
+
+/* Links configuration */
+a:hover { color: red; text-decoration: underline; }
+
+/* Images configuration */
+img.right {
+  margin-left: 1%;
+  float: right;
+}
+
+img.left {
+  margin-right: 1%;
+  float: left;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  border: 2px solid black;
+}
+

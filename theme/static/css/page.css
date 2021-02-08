@@ -1,0 +1,13 @@
+.page-section {
+  background-color: white;
+  float: left;
+  width: 75%;
+  border-right: 2px solid black;
+}
+
+/* Customize the title and subtitle style */
+.page-title {
+  font-size: 175%;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
