@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+  <!-- Tab title, stylesheets and plugins -->
+  <head>
+  
+    <!-- Enable support for UTF-8 -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <!-- Enable custom CSS and font awesome support -->
+    <link rel="stylesheet" href="/theme/css/main.css" />
+    <link rel="stylesheet" href="/theme/font-awesome/css/font-awesome.min.css" />
+  
+    <!-- Enable MathJax support for LaTeX equations -->
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+      "HTML-CSS": {
+      styles: {
+      ".MathJax .mo, .MathJax .mi": {color: "black ! important"}}
+      },
+      tex2jax: {inlineMath: [['$','$'], ['\\\\(','\\\\)']],processEscapes: true}
+      });
+    </script>
+    
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+
+  
+    <!-- Title of the webpage in the browser tab -->
+    <title>On-orbit</title>
+  
+  </head>
+
+  <!-- The main body of the webpage -->
+  <body>
+
+
+<!-- All the content of the webpage -->
+<div class="content">
+
+  <!-- Banner of the webpage -->
+  <header>
+    <a href="/index.html"><h1 class="banner">On-orbit<i class="fa fa-space-shuttle fa-fw"></i></h1></a>
+  </header>
+
+  <!-- Navigation bar -->
+  <nav class="menu">
+    <ul>
+
+      <!-- Build a link for each item in the menu -->
+      <li><a href="/pages/about.html">About me<i class="fa fa-user-circle-o fa-fw"></i></a></li>
+      <li><a href="/category/orbital-mechanics.html">Orbital Mechanics<i class="fa fa-rocket fa-fw"></i></a></li>
+      <li><a href="/#">Programming<i class="fa fa-laptop fa-fw"></i></a></li>
+      <li><a href="/#">Projects<i class="fa fa-folder-o fa-fw"></i></a></li>
+      <li><a href="/#">Books reviews<i class="fa fa-book fa-fw"></i></a></li>
+      <li><a href="/#">Contact<i class="fa fa-envelope fa-fw"></i></a></li>
+
+    </ul>
+  </nav>
+
+  <!-- Make a clear fix between menu bar and articles content -->
+  <div class="clearfix"></div>
+
+  <!-- Page main section -->
+  <div id="article-list">
+    <article>
+    <p class="page-title"><i class="fa fa-file-text-o"> About me</i></p>
+	<div class="page-content">
+          <p><img class="boder; left" width="30%" src="/resources/img/loup_and_me.jpg" /></p>
+<p>My name is Jorge Martínez Garrido and I am an undergraduate aerospace engineer.
+After joining university, I became interested in scientific computing applied to
+the aerospace world, in particular to orbital mechanics branch.</p>
+<p>While in my free time, I like to contribute to open-source projects related with
+previous sciences or develop my own codes. Most of those are completely written
+in Python, a programming language I feel very comfortable with. Nevertheless, I
+have experience with Matlab and C too. You might also find some of my projects
+being related with flight simulation gauges or templates for academical writing.
+Anyway, the common thing between all of them is its open-source nature. The
+only way this world will become truly free is through knowledge sharing.</p>
+<p>In 2019, I applied to the Google Summer of Code coding program. I was selected
+for the poliastro project, a pure Python library which provides an API for
+solving common orbital mechanics problems. Juan Luis Cano Rodríguez, the
+original and main author of the project, helped me a lot since I joined
+the project. At the moment, I am one of its core developers. By the end
+of 2020, the project was granted with NumFOCUS support for developing a
+validation repository to check most critical software features.</p>
+<p>But not everything in my life is related to programming. I also like to have fun
+with my dog. Loup is a border collie, a very smart and active dog. He knows
+several tricks and really enjoys going outside to make new friends. Sometimes, I
+envy his life: we (humans) should learn a lot from animals and stop caring about
+non-vital things that society makes us think to be important.</p>
+<p>I used to be a light sport aircraft pilot but after some time, decided not to
+keep flying. It is not I no longer like aviation, but preferred to focus and
+direct all my efforts towards other abilities. The figure below these lines is a
+landscape of Aeroclub of Castellón, the airfield where I learned how to fly
+aircraft. I really miss spending my weekends there: flying in the
+mornings, having launch with the rest of the pilots and reading aviation
+journals in the control tower till the day was over...</p>
+<p><img class="center" width="75%" src="/resources/img/LECN_landscape.jpg" /></p>
+<p>Back in 2018 I also got interested by Ham Radio and started studying for the
+official exam. Finally, I was able to pass it and got my call sign: EA4GXZ. The
+truth is that because my lack of equipment, I am not able to make contacts from
+home. Therefore, my activities related with this hobby can be considered null.
+I hope one day to have an small radio station so this situation can change!</p>
+<p>Finally, by the end of 2019 I decided to setup up this website to have a place
+were sharing my content. It is true there are plenty of platforms for blogging
+and carrying out this task in a more easy way, but if you always take the easy
+path, you end up learning nothing at all. Therefore, I encourage you to navigate
+through all the different available resources from this website and I hope you
+enjoy them.</p>
+	</div>
+    </article>
+  </div>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+
+    <!-- Build each of the sections -->
+      <div class="">
+        <h2><i class="fa fa-newspaper-o"></i> News</h2>
+	<div class="content">
+	  <h3><i class="fa fa-thumb-tack"> NumFocus accepted poliastro proposal on software validation</i></h3>
+	    <p>
+        The New validation framework for poliastro proposal was accepted by the
+        NumFocus organization under the small development grants program. During
+        the next four months, both Juan Luis and me will be working to tests the
+        accuracy of poliastro's routines against similar open-source projects.
+        </p>
+	</div>
+      </div>
+      <div class="">
+        <h2><i class="fa fa-link"></i> Interesting websites</h2>
+	<div class="content">
+	  <h3><i class="fa fa-star"> The Astrobook</i></h3>
+	    <a class="link" href="https://astrobook.github.io/">https://astrobook.github.io/</a>
+	  <h3><i class="fa fa-star"> Celestial mechancis journal</i></h3>
+	    <a class="link" href="https://www.springer.com/journal/10569">https://www.springer.com/journal/10569</a>
+	  <h3><i class="fa fa-star"> Degenerate Conic</i></h3>
+	    <a class="link" href="http://degenerateconic.com">http://degenerateconic.com</a>
+	  <h3><i class="fa fa-star"> De máquinas e intenciones</i></h3>
+	    <a class="link" href="https://demaquinaseintenciones.wordpress.com/">https://demaquinaseintenciones.wordpress.com/</a>
+	  <h3><i class="fa fa-star"> Numfys</i></h3>
+	    <a class="link" href="https://www.numfys.net/">https://www.numfys.net/</a>
+	  <h3><i class="fa fa-star"> Pybonacci</i></h3>
+	    <a class="link" href="https://pybonacci.org/">https://pybonacci.org/</a>
+	</div>
+      </div>
+
+  </aside>
+
+  <!-- Make a clear fix between sidebar and footer -->
+  <div class="clearfix"></div>
+
+  <!-- Footer -->
+  <footer>
+    <p>This website is built using open-source tools <i class="fa fa-gears fa-fw"></i></p>
+  </footer>
+
+</div>
+
+
+
+  </body>
+
+</html>

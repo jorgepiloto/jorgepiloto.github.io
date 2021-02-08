@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>On-orbit</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2020-02-05T00:00:00+01:00</updated><entry><title>A third post</title><link href="/articles/2020/02/05/third-post.html" rel="alternate"></link><published>2020-02-05T00:00:00+01:00</published><updated>2020-02-05T00:00:00+01:00</updated><author><name>Jorge M.G.</name></author><id>tag:None,2020-02-05:/articles/2020/02/05/third-post.html</id><summary type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet
+vulputate arcu, in posuere augue. Interdum et malesuada fames ac ante ipsum
+primis in faucibus. Cras vel ex eget velit vehicula lobortis. Donec sodales orci
+tortor, auctor egestas erat pretium a. Integer gravida nec lectus sed posuere.
+Nunc eros …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet
+vulputate arcu, in posuere augue. Interdum et malesuada fames ac ante ipsum
+primis in faucibus. Cras vel ex eget velit vehicula lobortis. Donec sodales orci
+tortor, auctor egestas erat pretium a. Integer gravida nec lectus sed posuere.
+Nunc eros est, rhoncus ut iaculis quis, imperdiet sed massa. Quisque et ipsum ac
+tortor posuere ullamcorper. Nullam pharetra ultricies ornare. Vestibulum in
+vestibulum augue.&lt;/p&gt;
+&lt;h2&gt;A section&lt;/h2&gt;
+&lt;p&gt;Orci varius natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Aliquam imperdiet auctor mauris at congue. Donec quis odio
+lobortis, posuere enim a, egestas odio. In hac habitasse platea dictumst.
+Curabitur elementum quam neque. Vivamus ultrices lorem luctus risus congue
+lacinia. Cras sodales tempus augue vel egestas. Curabitur a molestie velit.&lt;/p&gt;
+&lt;p&gt;Orci varius natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Aliquam imperdiet auctor mauris at congue. Donec quis odio
+lobortis, posuere enim a, egestas odio. In hac habitasse platea dictumst.
+Curabitur elementum quam neque. Vivamus ultrices lorem luctus risus congue
+lacinia. Cras sodales tempus augue vel egestas. Curabitur a molestie velit.&lt;/p&gt;
+&lt;h3&gt;A subsection&lt;/h3&gt;
+&lt;p&gt;Maecenas scelerisque dui id felis auctor varius. Integer aliquet pretium leo,
+sed dapibus leo vestibulum ut. In sed scelerisque elit. Nullam nec ante ac felis
+volutpat blandit. Nunc sagittis risus lectus. Nunc lorem massa, feugiat eget
+convallis sed, tincidunt ut nisi. Duis nec mauris tincidunt, euismod neque
+vitae, lobortis diam. Pellentesque quis elementum mauris, sed auctor ante. Fusce
+faucibus venenatis pretium. &lt;/p&gt;
+&lt;h2&gt;Another section&lt;/h2&gt;
+&lt;p&gt;Suspendisse ac massa sed orci vulputate iaculis nec
+vel sapien. Pellentesque porta molestie risus, non tristique mi. Donec accumsan,
+purus auctor tincidunt hendrerit, tortor magna finibus eros, luctus imperdiet mi
+tellus nec tortor.&lt;/p&gt;</content><category term="Orbital mechanics"></category><category term="pelican"></category><category term="publishing"></category></entry><entry><title>A second post!</title><link href="/articles/2020/02/01/second-post.html" rel="alternate"></link><published>2020-02-01T00:00:00+01:00</published><updated>2020-02-01T00:00:00+01:00</updated><author><name>Jorge M.G.</name></author><id>tag:None,2020-02-01:/articles/2020/02/01/second-post.html</id><summary type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet
+vulputate arcu, in posuere augue. Interdum et malesuada fames ac ante ipsum
+primis in faucibus. Cras vel ex eget velit vehicula lobortis. Donec sodales orci
+tortor, auctor egestas erat pretium a. Integer gravida nec lectus sed posuere.
+Nunc eros …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet
+vulputate arcu, in posuere augue. Interdum et malesuada fames ac ante ipsum
+primis in faucibus. Cras vel ex eget velit vehicula lobortis. Donec sodales orci
+tortor, auctor egestas erat pretium a. Integer gravida nec lectus sed posuere.
+Nunc eros est, rhoncus ut iaculis quis, imperdiet sed massa. Quisque et ipsum ac
+tortor posuere ullamcorper. Nullam pharetra ultricies ornare. Vestibulum in
+vestibulum augue.&lt;/p&gt;
+&lt;h2&gt;A section&lt;/h2&gt;
+&lt;p&gt;Orci varius natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Aliquam imperdiet auctor mauris at congue. Donec quis odio
+lobortis, posuere enim a, egestas odio. In hac habitasse platea dictumst.
+Curabitur elementum quam neque. Vivamus ultrices lorem luctus risus congue
+lacinia. Cras sodales tempus augue vel egestas. Curabitur a molestie velit.&lt;/p&gt;
+&lt;h3&gt;A subsection&lt;/h3&gt;
+&lt;p&gt;Maecenas scelerisque dui id felis auctor varius. Integer aliquet pretium leo,
+sed dapibus leo vestibulum ut. In sed scelerisque elit. Nullam nec ante ac felis
+volutpat blandit. Nunc sagittis risus lectus. Nunc lorem massa, feugiat eget
+convallis sed, tincidunt ut nisi. Duis nec mauris tincidunt, euismod neque
+vitae, lobortis diam. Pellentesque quis elementum mauris, sed auctor ante. Fusce
+faucibus venenatis pretium. $e^{i\theta} = \cos(\theta) + i\sin(\theta)$&lt;/p&gt;
+&lt;p&gt;$$
+\begin{equation}
+a + b = c
+\end{equation}
+$$&lt;/p&gt;
+&lt;h2&gt;Another section&lt;/h2&gt;
+&lt;p&gt;Suspendisse ac massa sed orci vulputate iaculis nec
+vel sapien. Pellentesque porta molestie risus, non tristique mi. Donec accumsan,
+purus auctor tincidunt hendrerit, tortor magna finibus eros, luctus imperdiet mi
+tellus nec tortor.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# Python program for implementation of Bubble Sort&lt;/span&gt;
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;bubbleSort&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;arr&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;arr&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+    &lt;span class="c1"&gt;# Traverse through all array elements&lt;/span&gt;
+    &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="c1"&gt;# range(n) also work but outer loop will repeat one time more than needed.&lt;/span&gt;
+
+        &lt;span class="c1"&gt;# Last i elements are already in place&lt;/span&gt;
+        &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;j&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+
+            &lt;span class="c1"&gt;# traverse the array from 0 to n-i-1&lt;/span&gt;
+            &lt;span class="c1"&gt;# Swap if the element found is greater&lt;/span&gt;
+            &lt;span class="c1"&gt;# than the next element&lt;/span&gt;
+            &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;arr&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;j&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;arr&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;j&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;:&lt;/span&gt;
+                &lt;span class="n"&gt;arr&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;j&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="n"&gt;arr&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;j&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;arr&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;j&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="n"&gt;arr&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;j&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="Orbital mechanics"></category><category term="pelican"></category><category term="publishing"></category></entry><entry><title>A first post</title><link href="/articles/2020/01/01/first-post.html" rel="alternate"></link><published>2020-01-01T00:00:00+01:00</published><updated>2020-01-01T00:00:00+01:00</updated><author><name>Jorge M.G.</name></author><id>tag:None,2020-01-01:/articles/2020/01/01/first-post.html</id><summary type="html">&lt;p&gt;Short version for index and feeds&lt;/p&gt;</summary><content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet
+vulputate arcu, in posuere augue. Interdum et malesuada fames ac ante ipsum
+primis in faucibus. Cras vel ex eget velit vehicula lobortis. Donec sodales orci
+tortor, auctor egestas erat pretium a. Integer gravida nec lectus sed posuere.
+Nunc eros est, rhoncus ut iaculis quis, imperdiet sed massa. Quisque et ipsum ac
+tortor posuere ullamcorper. Nullam pharetra ultricies ornare. Vestibulum in
+vestibulum augue.&lt;/p&gt;
+&lt;h2&gt;A section&lt;/h2&gt;
+&lt;p&gt;Orci varius natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Aliquam imperdiet auctor mauris at congue. Donec quis odio
+lobortis, posuere enim a, egestas odio. In hac habitasse platea dictumst.
+Curabitur elementum quam neque. Vivamus ultrices lorem luctus risus congue
+lacinia. Cras sodales tempus augue vel egestas. Curabitur a molestie velit.&lt;/p&gt;
+&lt;h3&gt;A subsection&lt;/h3&gt;
+&lt;p&gt;Maecenas scelerisque dui id felis auctor varius. Integer aliquet pretium leo,
+sed dapibus leo vestibulum ut. In sed scelerisque elit. Nullam nec ante ac felis
+volutpat blandit. Nunc sagittis risus lectus. Nunc lorem massa, feugiat eget
+convallis sed, tincidunt ut nisi. Duis nec mauris tincidunt, euismod neque
+vitae, lobortis diam. Pellentesque quis elementum mauris, sed auctor ante. Fusce
+faucibus venenatis pretium. &lt;/p&gt;
+&lt;h2&gt;Another section&lt;/h2&gt;
+&lt;p&gt;Suspendisse ac massa sed orci vulputate iaculis nec
+vel sapien. Pellentesque porta molestie risus, non tristique mi. Donec accumsan,
+purus auctor tincidunt hendrerit, tortor magna finibus eros, luctus imperdiet mi
+tellus nec tortor.&lt;/p&gt;</content><category term="Python"></category><category term="pelican"></category><category term="publishing"></category></entry></feed>
