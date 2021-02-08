@@ -1,0 +1,19 @@
+/* Style-sheet for website banner */
+
+
+.banner {
+  background-image: url("../images/stars_background.png");
+  text-align: center;
+  color: white;
+  font-size: 350%;
+  height: 200%;
+  line-height: 200%;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: none;
+}

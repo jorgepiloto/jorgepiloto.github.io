@@ -1,0 +1,46 @@
+/* Sidebar customization */
+aside {
+  float: right;
+  width: 24.8%;
+}
+
+aside h2 {
+  font-size: 125%;
+  text-align: left;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding-top: 5%;
+  border-bottom: 2px solid black;
+}
+
+aside div h3 {
+  font-size: 100%;
+  margin-left: 4%;
+  margin-top: 5%;
+}
+
+aside div {
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-top: 5%;
+  background-color: white;
+  padding-bottom: 2%;
+}
+
+aside div:first-child {
+  margin-top: 0%;
+}
+
+aside p {
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+aside a {
+ font-size: small;
+ margin-left: 6%;
+ color: blue;
+}
+

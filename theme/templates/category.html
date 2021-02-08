@@ -28,14 +28,17 @@
   <!-- Articles main section -->
   <div id="article-list">
 
+    {% for article in articles %}
       <article>
         <p class="title"><i class="fa fa-file-text-o"> {{ article.title }}</i></p>
         <p class="subtitle">{{ article.subtitle }}</p>
 	<div class="post">
-          {{ article.content }}
+          {{ article.summary }}
 	</div>
+	<a class="read-more" href="{{ SITEURL }}/{{ article.url }}">Read more</a>
 	<p class="author">{{ article.date.strftime("On %Y/%m/%d") }}, by {{ article.author }}</p>
       </article>
+     {% endfor %}
 
   </div>
 

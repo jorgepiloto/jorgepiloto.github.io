@@ -1,0 +1,12 @@
+/* Footer customization */
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+footer p {
+  font-size: small;
+}

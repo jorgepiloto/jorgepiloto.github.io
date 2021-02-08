@@ -7,7 +7,7 @@
 
   <!-- Banner of the webpage -->
   <header>
-    <a class="banner-link" href="{{ SITEURL}}/index.html"><h1 class="banner">{{ SITENAME }}<i class="fa fa-space-shuttle fa-fw"></i></h1></a>
+    <a href="{{ SITEURL}}/index.html"><h1 class="banner">{{ SITENAME }}<i class="fa fa-space-shuttle fa-fw"></i></h1></a>
   </header>
 
   <!-- Navigation bar -->
@@ -16,7 +16,7 @@
 
       <!-- Build a link for each item in the menu -->
       {% for name, fa, link in MENU_LINKS %}
-        <li><a href="{{ SITEURL }}/{{ link }}">{{ name }}<i class="fa {{ fa }} fa-fw"></i></a></li>
+      <li><a href="{{ SITEURL }}/{{ link }}">{{ name }}<i class="fa {{ fa }} fa-fw"></i></a></li>
       {% endfor %}
 
     </ul>
@@ -25,18 +25,14 @@
   <!-- Make a clear fix between menu bar and articles content -->
   <div class="clearfix"></div>
 
-  <!-- Articles main section -->
+  <!-- Page main section -->
   <div id="article-list">
-
-      <article>
-        <p class="title"><i class="fa fa-file-text-o"> {{ article.title }}</i></p>
-        <p class="subtitle">{{ article.subtitle }}</p>
-	<div class="post">
-          {{ article.content }}
+    <article>
+    <p class="page-title"><i class="fa fa-file-text-o"> {{ page.title }}</i></p>
+	<div class="page-content">
+          {{ page.content }}
 	</div>
-	<p class="author">{{ article.date.strftime("On %Y/%m/%d") }}, by {{ article.author }}</p>
-      </article>
-
+    </article>
   </div>
 
   <!-- Sidebar -->
