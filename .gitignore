@@ -3,3 +3,6 @@ __pycache__/
 
 # Ignore rendered output
 output/
+
+# Ignore virtual environments
+.venv/
